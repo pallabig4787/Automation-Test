@@ -41,7 +41,8 @@
      Expected: Validation on the number of taks created.
       
  # Automation using SeleniumIDE:
-   SeleniunIDE is a simple Automation Tool that requires no additional setup other than installing the extension on the Chrome/Firefox browser. It is easy to use play back tool and provides instant feedback
+   SeleniunIDE is a simple Automation Tool that requires no additional setup other than installing the extension on the Chrome/Firefox browser. It is easy to use play back tool and provides instant feedback.
+  
    The test scenarios folder is divided into positive and negative scenarios. Each scenario has an individual script with a header that makes it easy to identify.
   Below are the steps that needs to be followed to run the script and see the results.
  
@@ -67,5 +68,5 @@
     
   # Report Summary:
   
-  ![image](https://user-images.githubusercontent.com/68784921/118033824-e130e680-b386-11eb-8b96-9e8bb7de9356.png)
+    ![image](https://user-images.githubusercontent.com/68784921/118033824-e130e680-b386-11eb-8b96-9e8bb7de9356.png)
 
