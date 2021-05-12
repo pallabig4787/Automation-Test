@@ -38,13 +38,13 @@
      Expected: Validation on the number of charaters in a row
    4. User should be restricted on the number of tasks that can be added on the app
      
-     Expected: Validation on the number of taks created.
+     Expected: Validation on the number of taks created in the application.
       
  # Automation using SeleniumIDE:
    SeleniunIDE is a simple Automation Tool that requires no additional setup other than installing the extension on the Chrome/Firefox browser. It is easy to use play back tool and provides instant feedback.
   
    The test scenarios folder is divided into positive and negative scenarios. Each scenario has an individual script with a header that makes it easy to identify.
-  Below are the steps that needs to be followed to run the script and see the results.
+  Below are the steps that need to be followed to run the scripts and see the results.
  
 # Steps to run the scripts:
  * Download SeleniumIDE extension for chrome/Firefox
