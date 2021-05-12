@@ -1,0 +1,207 @@
+{
+  "id": "8cc3d722-4392-4b57-bab3-7f8e3156bf40",
+  "version": "2.0",
+  "name": "N2",
+  "url": "https://todomvc.com/examples/angular2/",
+  "tests": [{
+    "id": "efc31242-040e-4e50-b710-b3d9071f9703",
+    "name": "N2.1 -Validation for Duplicate rows",
+    "commands": [{
+      "id": "1ddc4090-a0b3-4765-8abc-c4e34c3752d0",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca40927d-260b-456a-a824-33ce0442c336",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1.Add"
+    }, {
+      "id": "a19840ae-610c-4cac-bb04-72c1cd18004e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "28204ad3-3967-4e4f-b21d-69efd49d5b31",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1.Add"
+    }, {
+      "id": "5a37e164-05b5-4f05-9cf6-6d60c2f45589",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5e72747f-6fe8-448a-ad0f-adf2e03e2000",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1.Add"
+    }, {
+      "id": "0b514d03-0db0-47a7-99c7-82bcbcaa691a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f5b6291f-932d-4969-89aa-7772923de89e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ee0e167a-5a76-40a3-b9d2-d164b0891cab",
+    "name": "N2.1-Clear Screen",
+    "commands": [{
+      "id": "50fb8caf-bec5-4764-aeb9-32eab8fa1218",
+      "comment": "",
+      "command": "open",
+      "target": "https://todomvc.com/examples/angular2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4efe98d0-38c6-4f8c-ac44-1744f5dc0a0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1088x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11b59072-7186-4d36-87a5-7a4f72dde25e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=li:nth-child(2) .toggle",
+      "targets": [
+        ["css=li:nth-child(2) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "27,20.666656494140625"
+    }, {
+      "id": "500ca9a2-53a9-4134-97e6-6b07a2d1d1e6",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=li:nth-child(2) .toggle",
+      "targets": [
+        ["css=li:nth-child(2) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "27,20.666656494140625"
+    }, {
+      "id": "135b8daa-591b-4aa9-a1c4-12dad1450709",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=li:nth-child(2) .toggle",
+      "targets": [
+        ["css=li:nth-child(2) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "27,20.666656494140625"
+    }, {
+      "id": "3f94d0f6-5122-4042-b58b-a2989c765d0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.todo-list",
+      "targets": [
+        ["css=.todo-list", "css:finder"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1bdd1f6-2c83-4fc7-8f81-08e812b7acb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .toggle",
+      "targets": [
+        ["css=li:nth-child(2) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06221e37-f5b7-4679-8dde-12e96cdf7155",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .toggle",
+      "targets": [
+        ["css=li:nth-child(1) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4288da52-d569-489a-9bd2-b952737a1e5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) .toggle",
+      "targets": [
+        ["css=li:nth-child(3) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4352bd24-7a9b-4355-a461-15b3be4b5016",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "375f3dda-d02a-459c-abe2-01eaf08ba657",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "30270994-87fc-4c74-a909-95f9953d7520",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["efc31242-040e-4e50-b710-b3d9071f9703"]
+  }],
+  "urls": ["https://todomvc.com/", "https://todomvc.com/examples/angular2/"],
+  "plugins": []
+}

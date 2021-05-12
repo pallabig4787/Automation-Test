@@ -1,0 +1,109 @@
+{
+  "id": "ce0bef0d-ca90-4a28-bdb1-8d94aab766a6",
+  "version": "2.0",
+  "name": "N3",
+  "url": "https://todomvc.com/examples/angular2/",
+  "tests": [{
+    "id": "823ca997-f4a8-4dcf-85b7-3c1787d1fc24",
+    "name": "N3-No validation on the number of characters in a row",
+    "commands": [{
+      "id": "2a77bd35-bf24-43eb-8080-9052bbc946c9",
+      "comment": "",
+      "command": "open",
+      "target": "https://todomvc.com/examples/angular2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24ac7851-6857-4d54-8cc9-c0057170674c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1088x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc7626af-c4d3-4190-a56e-5de033c4927b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tersnkwkwekdln;w-0=oi21kjwkm2,s,xnsmnxmsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxu29woijskqjsksxmsabxmnsbxmnsbxjsdxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxhdjwhdkshxkjhddddddddddddddddddddd"
+    }, {
+      "id": "40086baa-50cb-4994-9e37-6d372c9d4303",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "aecc36bd-4c60-4abe-8738-8d8e2fe5e964",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6e8c5966-49c3-41de-8860-290372bf22f2",
+    "name": "N3.1 -Clear Screen",
+    "commands": [{
+      "id": "127e41cd-9ef7-4aaa-b350-94eb01e44552",
+      "comment": "",
+      "command": "open",
+      "target": "https://todomvc.com/examples/angular2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1957714d-cd51-4e92-bde8-0f2286858ff1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1088x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc843973-3eea-4a83-8859-b1c64265af3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.toggle",
+      "targets": [
+        ["css=.toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8619c4c-93df-4cdf-aecf-ea0a0d94a36c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a6ccd4b-f430-4760-b380-d3256257ef9a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8c5c788-68b8-418b-bcd8-ab2dfc37d3f3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://todomvc.com/", "https://todomvc.com/examples/angular2/"],
+  "plugins": []
+}
