@@ -17,14 +17,21 @@
 
     Expected: Clicking on the radio button on the left hand side of a task should strike it out.
   3. User should be able to delete the completed and striked out tasks
+
+
     Expected: Clicking on 'Clear Completed' should delete the completed task.
   4. User should be able to edit any task.
+
+
     Expected: Double clicking any task should enable edit functionality.
     
    Negative:
    1. User should not be able to edit any completed and striked out task.
+
+
       Expected: Completed and Striked Out task should not be editable when double clicked.
    2. User should not be able to add duplicate tasks
+
       Expected: A warning message when a duplicate task is created.
    3. User should be restricted on the number of characters allowed in a row.
       Expected: Validation on the number of charaters in a row
