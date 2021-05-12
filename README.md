@@ -29,18 +29,22 @@
    1. User should not be able to edit any completed and striked out task.
 
 
-      Expected: Completed and Striked Out task should not be editable when double clicked.
+     Expected: Completed and Striked Out task should not be editable when double clicked.
    2. User should not be able to add duplicate tasks
 
-      Expected: A warning message when a duplicate task is created.
+     Expected: A warning message when a duplicate task is created.
    3. User should be restricted on the number of characters allowed in a row.
-      Expected: Validation on the number of charaters in a row
+     
+     Expected: Validation on the number of charaters in a row
    4. User should be restricted on the number of tasks that can be added on the app
-      Expected: Validation on the number of taks created.
+     
+     Expected: Validation on the number of taks created.
       
  # Automation using SeleniumIDE:
  
- Steps to 
+ Steps to run the scripts:
+ .
+ 
 
 
 
