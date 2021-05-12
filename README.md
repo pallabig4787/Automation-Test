@@ -1,6 +1,6 @@
 # Automation-Test
 
-# Application to Be tested:
+# Application to be Tested:
   lightweight to-do list webapp
   
 # Features:
@@ -16,7 +16,7 @@
 
 
     Expected: Clicking on the radio button on the left hand side of a task should strike it out.
-  3. User should be able to delete the completed and striked out tasks
+  3. User should be able to delete the completed and striked out tasks.
 
 
     Expected: Clicking on 'Clear Completed' should delete the completed task.
@@ -30,13 +30,13 @@
 
 
      Expected: Completed and Striked Out task should not be editable when double clicked.
-   2. User should not be able to add duplicate tasks
+   2. User should not be able to add duplicate tasks.
 
      Expected: A warning message when a duplicate task is created.
    3. User should be restricted on the number of characters allowed in a row.
      
      Expected: Validation on the number of charaters in a row
-   4. User should be restricted on the number of tasks that can be added on the app
+   4. User should be restricted on the number of tasks that can be added on the app.
      
      Expected: Validation on the number of taks created in the application.
       
@@ -46,7 +46,7 @@
    The test scenarios folder is divided into positive and negative scenarios. Each scenario has an individual script with a header that makes it easy to identify.
   Below are the steps that need to be followed to run the scripts and see the results.
  
-# Steps to run the scripts:
+# Steps to Run the Scripts:
  * Download SeleniumIDE extension for chrome/Firefox
 
     https://www.selenium.dev/selenium-ide/
@@ -59,7 +59,7 @@
  * Click on Open Existing project and select an automation script.
 
     ![image](https://user-images.githubusercontent.com/68784921/118032250-11778580-b385-11eb-9f4a-3d70860ebc89.png)
- * Click on the Run all tests(highlighted) button to run the script
+ * Click on the Run all tests(highlighted) button to execute the script.
  
     ![image](https://user-images.githubusercontent.com/68784921/118032554-6e733b80-b385-11eb-8ede-2ed517d20ea2.png)
  * Click on the Test execution speed button (highlighted) and toggle to increase or decrease the speed of execution.
