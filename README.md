@@ -48,12 +48,20 @@
 # Steps to run the scripts:
  * Download SeleniumIDE extension for chrome/Firefox
 
- https://www.selenium.dev/selenium-ide/
+    https://www.selenium.dev/selenium-ide/
  * Add the extension to the browser.
   
- ![image](https://user-images.githubusercontent.com/68784921/118031423-21db3080-b384-11eb-9b10-d560dc4ab112.png)
+    ![image](https://user-images.githubusercontent.com/68784921/118031423-21db3080-b384-11eb-9b10-d560dc4ab112.png)
  * Click on the extension to open SeleniumIDE Tool.
  
- ![image](https://user-images.githubusercontent.com/68784921/118031595-57801980-b384-11eb-8d66-d829800ddb0d.png)
+    ![image](https://user-images.githubusercontent.com/68784921/118031595-57801980-b384-11eb-8d66-d829800ddb0d.png)
+ * Click on Open Existing project and select an automation script.
 
+    ![image](https://user-images.githubusercontent.com/68784921/118032250-11778580-b385-11eb-9f4a-3d70860ebc89.png)
+ * Click on the Run all tests(highlighted) button to run the script
  
+    ![image](https://user-images.githubusercontent.com/68784921/118032554-6e733b80-b385-11eb-8ede-2ed517d20ea2.png)
+ * Click on the Test execution speed button (highlighted) and toggle to increase or decrease the speed of execution.
+
+
+    ![image](https://user-images.githubusercontent.com/68784921/118032797-af6b5000-b385-11eb-9c4f-ddc8d4a982dd.png)
