@@ -1,0 +1,174 @@
+{
+  "id": "d91e5373-947c-41ba-8a13-294c430899ca",
+  "version": "2.0",
+  "name": "Automation Test",
+  "url": "https://todomvc.com/examples/angular2/",
+  "tests": [{
+    "id": "00f36a29-acf4-492a-93fc-9c0773bd8805",
+    "name": "P1- Create new tasks in To-Do list app",
+    "commands": [{
+      "id": "bf475116-1a7c-4c1e-911d-0cd5009efdde",
+      "comment": "",
+      "command": "open",
+      "target": "https://todomvc.com/examples/angular2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f326632-5737-439f-b07a-e775ab800a7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1088x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b6de867-5a16-474c-95b1-8060a5e173db",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1. Create new scenario"
+    }, {
+      "id": "5c48944b-20c1-4ee8-844b-fa7b4f8f1944",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2da413c2-52e3-4c92-864a-e9669b3fb43f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2. Create positive scenarios"
+    }, {
+      "id": "3d4244e8-2c47-46b6-9edd-75c3d9775e9e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "57ef73bf-f03a-4eb3-9dcb-bd09d977c995",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b965aa9-5d72-44ac-a4bd-5cc51d38b5c9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3. Create negative scenarios"
+    }, {
+      "id": "29923d3e-559d-46ac-abc1-1900bea02a5e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "86a2f623-a194-4291-afbb-b1ac1a69b29c",
+    "name": "P1.1-Clear Screen",
+    "commands": [{
+      "id": "ff1e82f8-0238-4dad-b99b-886a3a7d527c",
+      "comment": "",
+      "command": "open",
+      "target": "https://todomvc.com/examples/angular2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b8ed9f4-c7e4-4ed2-bdda-f6ec609e68c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1088x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96ca9c34-fc72-4d28-b682-ad4b78d25c6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .toggle",
+      "targets": [
+        ["css=li:nth-child(1) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c2900b5-4574-4f71-890a-791b30476cf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .toggle",
+      "targets": [
+        ["css=li:nth-child(2) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5709204-052c-4667-891f-8ef0c11efff8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) .toggle",
+      "targets": [
+        ["css=li:nth-child(3) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3701ed12-bbfc-452c-9536-54bcde119be9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "798f604d-7b8a-4633-9cf5-256b0cd06608",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05773de1-a5e3-4264-a2eb-fb5cba97dbee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://todomvc.com/", "https://todomvc.com/examples/angular2/"],
+  "plugins": []
+}
