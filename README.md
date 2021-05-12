@@ -47,7 +47,9 @@
  
 # Steps to run the scripts:
  * Download SeleniumIDE extension for chrome/Firefox
- * 
+ * Add the extension to the browser
+ * ![image](https://user-images.githubusercontent.com/68784921/118031149-d45ec380-b383-11eb-9ff7-40a9eb43f46b.png)
+
  
 
 
