@@ -63,5 +63,9 @@
     ![image](https://user-images.githubusercontent.com/68784921/118032554-6e733b80-b385-11eb-8ede-2ed517d20ea2.png)
  * Click on the Test execution speed button (highlighted) and toggle to increase or decrease the speed of execution.
 
-
     ![image](https://user-images.githubusercontent.com/68784921/118032797-af6b5000-b385-11eb-9c4f-ddc8d4a982dd.png)
+    
+  # Report Summary:
+  
+  ![image](https://user-images.githubusercontent.com/68784921/118033824-e130e680-b386-11eb-8b96-9e8bb7de9356.png)
+
