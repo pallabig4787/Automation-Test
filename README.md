@@ -48,12 +48,12 @@
 # Steps to run the scripts:
  * Download SeleniumIDE extension for chrome/Firefox
 
-    https://www.selenium.dev/selenium-ide/
+ https://www.selenium.dev/selenium-ide/
  * Add the extension to the browser.
   
-   ![image](https://user-images.githubusercontent.com/68784921/118031423-21db3080-b384-11eb-9b10-d560dc4ab112.png)
+ ![image](https://user-images.githubusercontent.com/68784921/118031423-21db3080-b384-11eb-9b10-d560dc4ab112.png)
  * Click on the extension to open SeleniumIDE Tool.
  
-  ![image](https://user-images.githubusercontent.com/68784921/118031595-57801980-b384-11eb-8d66-d829800ddb0d.png)
+ ![image](https://user-images.githubusercontent.com/68784921/118031595-57801980-b384-11eb-8d66-d829800ddb0d.png)
 
  
