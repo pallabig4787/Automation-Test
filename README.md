@@ -9,9 +9,12 @@
   
 # Test Scenarios:
   Positive
-  1. User should be able to insert a task in the application
+  1. User should be able to insert a task in the application.
+  
     Expected: Once user types a task and hits enter a task is created in the app
   2. User should be able to strike out the tasks that are completed.
+
+
     Expected: Clicking on the radio button on the left hand side of a task should strike it out.
   3. User should be able to delete the completed and striked out tasks
     Expected: Clicking on 'Clear Completed' should delete the completed task.
